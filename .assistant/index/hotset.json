@@ -1,0 +1,86 @@
+{
+  "pinned": [],
+  "frequent": [
+    {
+      "path": "soul.md",
+      "count": 63,
+      "lastAccessed": 1774844108687
+    },
+    {
+      "path": "claude.md",
+      "count": 62,
+      "lastAccessed": 1774844108687
+    },
+    {
+      "path": "user.md",
+      "count": 62,
+      "lastAccessed": 1774844108687
+    },
+    {
+      "path": "PATH.ai.md",
+      "count": 60,
+      "lastAccessed": 1774840976450
+    },
+    {
+      "path": "README.ai.md",
+      "count": 59,
+      "lastAccessed": 1774840976450
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/agent_reach/skill/SKILL.md",
+      "count": 3,
+      "lastAccessed": 1774844108687
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/agent_reach/guides/setup-reddit.md",
+      "count": 3,
+      "lastAccessed": 1774844108687
+    },
+    {
+      "path": "memory.md",
+      "count": 1,
+      "lastAccessed": 1774839452646
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/pip/_vendor/distlib/LICENSE.txt",
+      "count": 1,
+      "lastAccessed": 1774841254256
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/pip/_vendor/cachecontrol/LICENSE.txt",
+      "count": 1,
+      "lastAccessed": 1774841254256
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/pip/_vendor/dependency_groups/LICENSE.txt",
+      "count": 1,
+      "lastAccessed": 1774841254256
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
+      "count": 1,
+      "lastAccessed": 1774841254256
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/pip/_vendor/urllib3/LICENSE.txt",
+      "count": 1,
+      "lastAccessed": 1774841254256
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/agent_reach/guides/setup-groq.md",
+      "count": 1,
+      "lastAccessed": 1774841498393
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/agent_reach/guides/setup-exa.md",
+      "count": 1,
+      "lastAccessed": 1774841498393
+    },
+    {
+      "path": "%USERPROFILE%/.agent-reach-venv/Lib/site-packages/agent_reach/guides/setup-wechat.md",
+      "count": 1,
+      "lastAccessed": 1774841498393
+    }
+  ],
+  "lastUpdated": 1774844108687
+}

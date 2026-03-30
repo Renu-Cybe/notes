@@ -1,0 +1,32 @@
+{
+  "workspaceType": "general",
+  "organizationStyle": "mixed",
+  "captureDefault": "第一步：默认存放地 — \"收件箱\" 第二步：定期处理与精炼 第三步：最终位置结构化的知识库",
+  "archivePolicy": {
+    "completedTaskArchiveAfterDays": 30,
+    "closedProjectArchive": true,
+    "dailyMemoryRetentionDays": 30
+  },
+  "ignore": [
+    ".obsidian/**",
+    ".trash/**",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.gif",
+    "**/*.mp4",
+    "node_modules/**",
+    ".git/**"
+  ],
+  "index": {
+    "maxFileSizeKB": 512,
+    "chunkSize": 1200,
+    "chunkOverlap": 150,
+    "maxDepth": 8,
+    "includeExtensions": [
+      ".md",
+      ".txt",
+      ".markdown"
+    ]
+  }
+}
