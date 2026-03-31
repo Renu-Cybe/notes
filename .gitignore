@@ -10,3 +10,10 @@
 # System files
 .DS_Store
 Thumbs.db
+
+# CodePilot
+.codepilot/
+.codepilot-uploads/
+
+# Skill workspace
+skills/reduce-confirmation-fatigue-workspace/

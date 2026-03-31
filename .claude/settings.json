@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledPlugins": {
+    "reduce-confirmation-fatigue": true
+  },
+  "env": {
+    "REDUCE_CONFIRMATION_FATIGUE_ENABLED": "true",
+    "AUTO_EXECUTE_P0": "true",
+    "AUTO_EXECUTE_P1": "true",
+    "CONFIRM_P2": "true"
+  },
+  "permissions": {
+    "allow": [
+      "Read(skills/reduce-confirmation-fatigue/SKILL.md)",
+      "Read(skills/reduce-confirmation-fatigue/**)"
+    ]
+  }
+}

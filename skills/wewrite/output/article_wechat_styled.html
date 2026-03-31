@@ -1,0 +1,81 @@
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">你是不是也有过这种感觉：想用 AI 帮你干点活，但打开 ChatGPT 对话框，光标闪了半天，不知道敲什么。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">问了几个问题，回答倒是挺快，但总感觉——就这？</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">好像别人用 AI 能做各种厉害的事，到你手里就变成了一个稍微聪明点的搜索引擎。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">说实话，这个问题不解决，你会一直停留在"知道 AI 有用但用不起来"的阶段。</p>
+<h2 data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 22px; font-weight: 700; color: #1a1a1a; margin: 28px 0 14px 0; padding: 8px 0 8px 12px; border-left: 4px solid #2563eb; border-bottom: 1px solid #e5e7eb; line-height: 1.4">为什么大多数人卡在第一步</h2>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">我见过太多人了，买了各种 AI 课，收藏了一堆教程，转头就忘。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">核心问题不是"AI 能做什么"，而是"我该让 AI 帮我做什么"。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">就像给你一把很锋利的刀，你不知道要切什么，那刀再好也是摆设。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">讲真，大多数人用 AI 的方式从一开始就错了——他们把 AI 当成一个"问答机器"，问一句答一句。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">但 AI 真正厉害的地方是：它能陪你把一个模糊的想法，慢慢磨成一个具体的东西。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">比如——写一个小工具。</p>
+<!-- ✏️ 编辑建议：在这里加一句你自己第一次用 AI 时的困惑或经历 -->
+<h2 data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 22px; font-weight: 700; color: #1a1a1a; margin: 28px 0 14px 0; padding: 8px 0 8px 12px; border-left: 4px solid #2563eb; border-bottom: 1px solid #e5e7eb; line-height: 1.4">Claude Code 是什么</h2>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">好，先说说今天要用的工具。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">Claude Code 是 Anthropic 出的一个命令行工具。说白了，就是让你在终端里直接跟 Claude 聊天，而且这个 Claude 能直接操作你电脑上的文件。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">你可以把它理解成一个"住在终端里的 AI 助手"。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">跟在网页上聊天不一样的是，它能：<br/>
+- 直接读取你项目里的代码<br/>
+- 帮你改文件<br/>
+- 执行命令<br/>
+- 跑测试</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">就像你旁边坐了个工程师，你指哪它改哪。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">这玩意儿对新手来说可能听起来有点硬核。但别急， 30 分钟，我带你跑一遍。</p>
+<h2 data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 22px; font-weight: 700; color: #1a1a1a; margin: 28px 0 14px 0; padding: 8px 0 8px 12px; border-left: 4px solid #2563eb; border-bottom: 1px solid #e5e7eb; line-height: 1.4">安装其实没那么难</h2>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">打开你的终端。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">Windows 用户按 <code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>Win + R</code>，输入 <code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>cmd</code>，回车。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">Mac 用户按 <code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>Cmd + 空格</code>，输入 <code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>Terminal</code>，回车。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">然后输入这行命令：</p>
+<div class="codehilite"><pre data-darkmode-bgcolor="#2d2d2d" data-darkmode-color="#d4d4d4" style="background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; margin: 16px 0; line-height: 1.6; white-space: pre-wrap; word-wrap: break-word"><span></span><code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>@anthropic-ai/claude-code
+</code></pre></div>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">嗯，就一行。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">如果你电脑上没有 npm ，先装个 Node.js ，去官网下载安装包，下一步下一步就行。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">装完之后，输入：</p>
+<div class="codehilite"><pre data-darkmode-bgcolor="#2d2d2d" data-darkmode-color="#d4d4d4" style="background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; margin: 16px 0; line-height: 1.6; white-space: pre-wrap; word-wrap: break-word"><span></span><code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>claude
+</code></pre></div>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">第一次启动会让你登录，按提示走就好。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">就这么简单。我见过安装过程最友好的 CLI 工具之一。</p>
+<h2 data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 22px; font-weight: 700; color: #1a1a1a; margin: 28px 0 14px 0; padding: 8px 0 8px 12px; border-left: 4px solid #2563eb; border-bottom: 1px solid #e5e7eb; line-height: 1.4">写你的第一个小助手</h2>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">好，现在我们来做点有意思的。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">假设你经常需要把一些长文章总结成要点，但又懒得自己看。我们来让 AI 帮你做这件事。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">在终端里，直接跟 Claude 说：</p>
+<blockquote data-darkmode-bgcolor="#252525" data-darkmode-color="#c8c8c8" style="border-left: 4px solid #2563eb; background: #eff6ff; margin: 16px 0; padding: 12px 16px; border-radius: 0 8px 8px 0; color: #333">
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">帮我写一个 Python 脚本，输入一篇文章，输出 5 个要点摘要</p>
+</blockquote>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">Claude 会问你几个问题，比如要处理什么格式的文章、输出要多长之类的。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">回答完之后，它会直接帮你创建一个 <code data-darkmode-color="#d4d4d4" style='font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; background: #f1f5f9; color: #d946ef; padding: 2px 6px; border-radius: 4px'>summarize.py</code> 文件。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">然后你可以让它测试一下：</p>
+<blockquote data-darkmode-bgcolor="#252525" data-darkmode-color="#c8c8c8" style="border-left: 4px solid #2563eb; background: #eff6ff; margin: 16px 0; padding: 12px 16px; border-radius: 0 8px 8px 0; color: #333">
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">用这篇文章测试一下，帮我看看效果</p>
+</blockquote>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">它会自己跑脚本，看结果，发现问题，改代码。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">整个过程你就像在跟一个人聊天。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">"这里不太对，摘要太长了。"</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">"行，我改短一点。"</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">"能不能加个关键词提取？"</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">"好，加上。"</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">就像打游戏做任务一样，一步一步，你的小助手就成型了。</p>
+<!-- ✏️ 编辑建议：在这里加一句你想用 AI 做的具体场景，比如"我其实一直想做个 XX 工具" -->
+<h2 data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 22px; font-weight: 700; color: #1a1a1a; margin: 28px 0 14px 0; padding: 8px 0 8px 12px; border-left: 4px solid #2563eb; border-bottom: 1px solid #e5e7eb; line-height: 1.4">我踩过的坑</h2>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">说实话，一开始我也不太会用。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">第一次用的时候，我跟它说"帮我写个爬虫"，它直接给我生成了一堆代码，我复制粘贴，跑起来就报错。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">然后我又问它为什么报错，它又给了一段修复代码，还是不行。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">来来回回搞了半小时，我才反应过来——我压根没说清楚我要爬什么网站、要什么数据。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">后来我学会了，跟 AI 沟通就像跟人沟通一样：</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0"><strong data-darkmode-color="#6aadff" style="font-weight: 700; color: #1a1a1a">先把需求说清楚，再让它动手</strong>。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">它会问你问题，你认真回答。它会提建议，你判断要不要采纳。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">这不是"我问你答"，是"我们俩一起把事情做出来"。</p>
+<h2 data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 22px; font-weight: 700; color: #1a1a1a; margin: 28px 0 14px 0; padding: 8px 0 8px 12px; border-left: 4px solid #2563eb; border-bottom: 1px solid #e5e7eb; line-height: 1.4">接下来你能做什么</h2>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">30 分钟，你已经能跑通一个简单的工具了。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">接下来，你可以让 Claude Code 帮你：</p>
+<section><section data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="display: flex; align-items: flex-start; margin-bottom: 8px; color: #333333"><span data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="color: #2563eb; margin-right: 8px; flex-shrink: 0; font-size: 18px; line-height: 1.6">•</span><span style="flex: 1">把刚才的脚本加个图形界面</span></section><section data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="display: flex; align-items: flex-start; margin-bottom: 8px; color: #333333"><span data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="color: #2563eb; margin-right: 8px; flex-shrink: 0; font-size: 18px; line-height: 1.6">•</span><span style="flex: 1">打包成可以直接双击运行的程序</span></section><section data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="display: flex; align-items: flex-start; margin-bottom: 8px; color: #333333"><span data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="color: #2563eb; margin-right: 8px; flex-shrink: 0; font-size: 18px; line-height: 1.6">•</span><span style="flex: 1">加上更多功能，比如支持 PDF 、网页链接</span></section></section>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">或者，你可以想想自己平时有哪些重复性工作，试着让 AI 帮你自动化。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">每做成一个小工具，你对 AI 的理解就深一层。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">慢慢地，你会发现——AI 不是用来"聊天"的，是用来"干活"的。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">而你会从"知道 AI 有用"变成"真的在用 AI 帮自己省时间"。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">这就叫 AI 平权。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">不是技术大牛的专利，是你的日常工具。</p>
+<hr style="border: none; border-top: 1px solid #e5e7eb; margin: 24px 0"/>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">如果这篇文章对你有帮助，点个关注。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0">下期我教你用 AI 做一个自动写周报的工具，让你的周五下午不再痛苦。</p>
+<p data-darkmode-bgcolor="transparent" data-darkmode-color="#c8c8c8" style="font-size: 16px; line-height: 1.8; color: #333; margin: 12px 0"><strong data-darkmode-color="#6aadff" style="font-weight: 700; color: #1a1a1a">标签</strong>：#AI 入门 #ClaudeCode #零基础教程 #AI 工具 #效率提升</p>

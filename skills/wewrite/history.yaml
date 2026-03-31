@@ -1,0 +1,14 @@
+articles:
+  - date: "2026-03-31"
+    title: "零基础30分钟：用AI写出你的第一个小助手"
+    topic_source: "用户指定"
+    topic_keywords: ["Claude Code", "AI入门", "零基础教程", "AI工具"]
+    framework: "痛点型"
+    word_count: 1580
+    media_id: null
+    writing_persona: "midnight-friend"
+    dimensions:
+      - "叙事视角: 亲历者"
+      - "主类比域: 游戏"
+      - "情感基调: 温暖治愈"
+    stats: null
